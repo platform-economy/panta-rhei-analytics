@@ -9,8 +9,8 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
+          Social Analytics&nbsp;
+          {/* <code className={styles.code}>app/page.tsx</code> */}
         </p>
         <div>
           <a
@@ -32,21 +32,11 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
+        {}
       </div>
 
       <div className={styles.grid}>
-        <a
+        {/* <a
           href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
           target="_blank"
@@ -58,9 +48,9 @@ export default function Home() {
           <p className={inter.className}>
             Find in-depth information about Next.js features and API.
           </p>
-        </a>
+        </a> */}
 
-        <a
+        {/* <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
           target="_blank"
@@ -70,9 +60,9 @@ export default function Home() {
             Templates <span>-&gt;</span>
           </h2>
           <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
+        </a> */}
 
-        <a
+        {/* <a
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
           target="_blank"
@@ -84,7 +74,7 @@ export default function Home() {
           <p className={inter.className}>
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
-        </a>
+        </a> */}
       </div>
     </main>
   )
