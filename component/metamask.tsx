@@ -1,24 +1,21 @@
-import React from "react";
+import { ethers } from "ethers";
+import React, { Component } from "react";
 
-const Metamask = () => {
-  return (
-    <div
-      style={{
-        border: "0.5px solid #ccc",
-        display: "inline-block",
-        textAlign: "center",
-        margin: "10px",
-        padding: "20px",
-        fontSize: "20px",
-      }}
-    >
-      <p>
-        {" "}
-        It appears that Metamask is not installed, <br />
-        Download <a href="https://metamask.io/">Metamask</a> to continue.
-      </p>
-    </div>
-  );
-};
+class Metamask extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+
+  checkIfWalletIsConnected = async () => {
+    const { ethereum } = window
+    
+  }
+
+  async connectToMetamask() {
+    const provider = new ethers.providers.Web3Provider(window.ethereum)
+
+  }
+}
 
 export default Metamask;
